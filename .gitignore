@@ -1,0 +1,36 @@
+# Azure configuration files
+appsettings.json
+.env
+
+# Model registry
+model-registry.json
+
+# User's training documents
+my-training-docs/
+training-docs/
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.bmp
+
+# Keep sample training data
+!SampleTrainingData/
+!SampleTrainingData/*.*
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+
+# Visual Studio
+.vs/
+*.csproj.user
+
+# OS files
+.DS_Store
+Thumbs.db
